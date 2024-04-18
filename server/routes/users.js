@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://admin:tqEzW9jaiPlWlkjX@twitter.r5yxmur.mongodb.net/?retryWrites=true&w=majority&appName=Twitter")
+mongoose.connect("//mongodb url")
 .then(() => console.log("Connected to MongoDb"));
 const plm = require("passport-local-mongoose"); //encryption
 const userSchema = mongoose.Schema({
